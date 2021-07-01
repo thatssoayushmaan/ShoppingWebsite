@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 2px;
+  margin: 2px auto;
+}
+
+.result {
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  position: relative;
+  cursor: pointer;
+}
+
+.stars_radio-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+}
+
+hr {
+  border: 1px dotted black;
+}
